@@ -1,9 +1,9 @@
 using System.Security.Cryptography;
 using System.Text;
 
-namespace App.Infra.Security
+namespace App.Sources.Infra.Security
 {
- /// <summary>
+    /// <summary>
     /// Provides general security and cryptography utilities
     /// </summary>
     public static class SecurityUtils
@@ -28,7 +28,7 @@ namespace App.Infra.Security
             using var rng = RandomNumberGenerator.Create();
             var bytes = new byte[length];
             rng.GetBytes(bytes);
-            
+
             var result = new StringBuilder(length);
             for (int i = 0; i < length; i++)
             {

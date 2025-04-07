@@ -1,4 +1,4 @@
-namespace App.Infra.Security;
+namespace App.Sources.Infra.Security;
 
 public interface IJwtTokenGenerator
 {
@@ -6,15 +6,15 @@ public interface IJwtTokenGenerator
 }
 
 public class IClaimsInfo
-    {
-        public string UserId { get; set; } = string.Empty;
-        public string Email { get; set; } = string.Empty;
-        public string Role { get; set; } = string.Empty;
-        public string SubRole { get; set; } = string.Empty;
-        public IList<string> Permissions { get; set; }
+{
+    public string UserId { get; set; } = string.Empty;
+    public string Email { get; set; } = string.Empty;
+    public string Role { get; set; } = string.Empty;
+    public string SubRole { get; set; } = string.Empty;
+    public IList<string> Permissions { get; set; }
 
-        public IClaimsInfo()
-        {
-            Permissions = new List<string>();
-        }
+    public IClaimsInfo()
+    {
+        Permissions = new List<string>();
     }
+}

@@ -1,7 +1,7 @@
 using System;
 using Microsoft.IdentityModel.Tokens;
 
-namespace App.Infra.Security;
+namespace App.Sources.Infra.Security;
 
 public class JwtIssuerOptions
 {
