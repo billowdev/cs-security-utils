@@ -1,4 +1,3 @@
-```markdown
 # Argon2idPasswordHasher
 
 This repository provides an implementation of a secure password hashing utility using Argon2id, adhering to best practices for security and performance. It utilizes the `Konscious.Security.Cryptography` NuGet package.  The salt is embedded within the generated hash.
@@ -159,4 +158,4 @@ This project is licensed under the [MIT License](LICENSE).
 ## Contributions
 
 Contributions are welcome! Please feel free to submit pull requests or open issues to report bugs or suggest new features.
-```
+
